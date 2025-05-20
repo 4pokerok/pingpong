@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/main_background">
+
+    <!-- Текст заголовка -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ping Pong"
+        android:textSize="36sp"
+        android:textColor="#000000"/>
+
+    <!-- Кнопка ИГРАТЬ -->
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Играть"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Кнопка СПРАВКА -->
+    <Button
+        android:id="@+id/btn_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Справка"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

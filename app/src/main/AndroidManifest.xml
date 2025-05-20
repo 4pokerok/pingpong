@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pong">
+
+    <application
+        android:allowBackup="true"
+        android:theme="@style/AppTheme">
+
+        <!-- MainActivity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- HelpActivity -->
+        <activity
+            android:name=".HelpActivity"
+            android:exported="false" />
+
+        <!-- GameActivity -->
+        <activity
+            android:name=".GameActivity"
+            android:exported="false" />
+
+        <!-- GameOverActivity -->
+        <activity
+            android:name=".GameOverActivity"
+            android:exported="false" />
+
+    </application>
+</manifest>
